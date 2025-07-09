@@ -113,7 +113,7 @@ const About: React.FC = () => {
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
                     <span className="text-gray-600 dark:text-gray-300">
-                      <strong>Experience:</strong> Full Stack Development, ML & Generative AI 
+                      <strong>Experience:</strong> Full Stack Development, DS, ML & Generative AI 
                     </span>
                   </div>
                   
