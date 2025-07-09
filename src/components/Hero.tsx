@@ -4,7 +4,15 @@ import { Download, Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [currentTitle, setCurrentTitle] = useState(0);
-  const titles = ['Full Stack Developer', 'Software Engineer', 'Problem Solver', 'Tech Enthusiast'];
+  const titles = [
+  'Full Stack Developer',
+  'Software Engineer',
+  'Machine Learning Enthusiast',
+  'AI and Data Science Enthusiast',
+  'Web Application Developer',
+  'Problem Solver'
+];
+
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -114,8 +122,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.8 }}
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed"
           >
-            Passionate about creating innovative web solutions and bringing ideas to life through code. 
-            I specialize in building scalable applications with modern technologies.
+            Passionate about turning ideas into intelligent web applications. I specialize in Full Stack Development and AI-driven solutions using modern tools and frameworks.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -159,14 +166,15 @@ const Hero: React.FC = () => {
                 <Linkedin size={24} />
               </motion.a>
               
-              <motion.button
-                onClick={() => scrollToSection('contact')}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="p-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
-              >
-                <Mail size={24} />
-              </motion.button>
+              <motion.a
+  href="mailto:rajeswaridamam007@gmail.com"
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.9 }}
+  className="p-3 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
+>
+  <Mail size={24} />
+</motion.a>
+
             </div>
           </motion.div>
         </motion.div>

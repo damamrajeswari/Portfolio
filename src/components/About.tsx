@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code, Database, Globe, Smartphone, Server, Palette } from 'lucide-react';
+import { Code, Database, Globe, Smartphone, Server, Palette, Cloud, PenTool } from 'lucide-react';
 
 const About: React.FC = () => {
   const [ref, inView] = useInView({
@@ -10,12 +10,12 @@ const About: React.FC = () => {
   });
 
   const skills = [
-    { name: 'Frontend Development', icon: Globe, description: 'React, TypeScript, Next.js, Tailwind CSS' },
+    { name: 'Frontend Development', icon: Globe, description: 'React, TypeScript, Tailwind CSS' },
     { name: 'Backend Development', icon: Server, description: 'Node.js, Express, Python, REST APIs' },
-    { name: 'Database Management', icon: Database, description: 'MongoDB, PostgreSQL, MySQL, Redis' },
-    { name: 'Mobile Development', icon: Smartphone, description: 'React Native, Flutter' },
+    { name: 'Database Management', icon: Database, description: 'MongoDB, MySQL' },
+    { name: 'Cloud', icon: Cloud, description: 'Azure' },
     { name: 'Programming Languages', icon: Code, description: 'JavaScript, TypeScript, Python, Java' },
-    { name: 'UI/UX Design', icon: Palette, description: 'Figma, Adobe XD, Responsive Design' },
+    { name: 'Tools', icon: PenTool, description: 'Git, GitHub' },
   ];
 
   const containerVariants = {
@@ -66,21 +66,19 @@ const About: React.FC = () => {
               
               <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
                 <p>
-                  I'm a dedicated Full Stack Developer with a passion for creating innovative web solutions 
-                  that make a real impact. With expertise in modern technologies and frameworks, I enjoy 
-                  turning complex problems into simple, beautiful, and intuitive solutions.
+                  I'm a Full Stack Developer with a strong focus on building smart, scalable, and user-friendly web applications. I enjoy solving real-world problems through clean and maintainable code, and I'm always looking for ways to enhance the user experience by integrating intelligent features.
                 </p>
                 
                 <p>
-                  My journey in software development has equipped me with a strong foundation in both 
-                  frontend and backend technologies. I believe in writing clean, maintainable code and 
-                  following best practices to deliver high-quality applications.
+                  With a solid foundation in both frontend and backend development, my journey has also included hands-on experience with AI, Machine Learning, and IoT-based systems. I believe in learning by doing and continuously pushing myself to grow through new challenges and meaningful projects.
+
+
                 </p>
                 
                 <p>
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-                  projects, or sharing knowledge with the developer community. I'm always eager to learn and 
-                  take on new challenges that push me to grow as a developer.
+                  When I’m not coding, I spend time learning at my own pace, staying updated with emerging tech trends, or working on projects that help me apply what I’ve learned. I enjoy building things that solve real problems and reflect my growth as a developer.
+
+
                 </p>
               </div>
 
@@ -108,28 +106,28 @@ const About: React.FC = () => {
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                     <span className="text-gray-600 dark:text-gray-300">
-                      <strong>Location:</strong> Available for Remote Work
+                      <strong>Location:</strong> Hyderabad, Telangana
                     </span>
                   </div>
                   
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
                     <span className="text-gray-600 dark:text-gray-300">
-                      <strong>Experience:</strong> Full Stack Development
+                      <strong>Experience:</strong> Full Stack Development, ML & Generative AI 
                     </span>
                   </div>
                   
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-indigo-600 rounded-full"></div>
                     <span className="text-gray-600 dark:text-gray-300">
-                      <strong>Focus:</strong> Modern Web Technologies
+                      <strong>Focus:</strong> Modern Web Technologies & AI integration,
                     </span>
                   </div>
                   
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-pink-600 rounded-full"></div>
                     <span className="text-gray-600 dark:text-gray-300">
-                      <strong>Passion:</strong> Clean Code & User Experience
+                      <strong>Passion:</strong> Clean Code, Smart Automation & User Experience
                     </span>
                   </div>
                 </div>

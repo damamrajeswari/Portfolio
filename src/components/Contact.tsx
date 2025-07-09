@@ -125,18 +125,28 @@ const Contact: React.FC = () => {
                   </div>
                 </motion.div>
 
+              
+
                 <motion.div
-                  whileHover={{ x: 10 }}
-                  className="flex items-center space-x-4"
-                >
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                    <Phone size={24} className="text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
-                    <p className="text-gray-600 dark:text-gray-400">Available upon request</p>
-                  </div>
-                </motion.div>
+  whileHover={{ x: 10 }}
+  className="flex items-center space-x-4"
+>
+  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+    <Linkedin size={24} className="text-white" />
+  </div>
+  <div>
+    <h4 className="font-semibold text-gray-900 dark:text-white">LinkedIn</h4>
+    <a
+      href="https://www.linkedin.com/in/rajeswaridamam"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-600 dark:text-gray-400 hover:underline"
+    >
+      linkedin.com/in/rajeswaridamam
+    </a>
+  </div>
+</motion.div>
+
 
                 <motion.div
                   whileHover={{ x: 10 }}
@@ -147,7 +157,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 dark:text-white">Location</h4>
-                    <p className="text-gray-600 dark:text-gray-400">Open to Remote Work</p>
+                    <p className="text-gray-600 dark:text-gray-400">Hyderabad, Telangana</p>
                   </div>
                 </motion.div>
               </div>
