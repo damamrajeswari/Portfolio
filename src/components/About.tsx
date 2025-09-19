@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code, Database, Globe, Smartphone, Server, Palette, Cloud, PenTool } from 'lucide-react';
+import { Globe, Server, Database, Cloud, Code, GitBranch, BarChart3, Brain, Layers } from "lucide-react";
 
 const About: React.FC = () => {
   const [ref, inView] = useInView({
@@ -9,14 +9,23 @@ const About: React.FC = () => {
     threshold: 0.1,
   });
 
-  const skills = [
-    { name: 'Frontend Development', icon: Globe, description: 'React, TypeScript, Tailwind CSS' },
-    { name: 'Backend Development', icon: Server, description: 'Node.js, Express, Python, REST APIs' },
-    { name: 'Database Management', icon: Database, description: 'MongoDB, MySQL' },
-    { name: 'Cloud', icon: Cloud, description: 'Azure' },
-    { name: 'Programming Languages', icon: Code, description: 'JavaScript, TypeScript, Python, Java' },
-    { name: 'Tools', icon: PenTool, description: 'Git, GitHub' },
-  ];
+
+
+
+
+const skills = [
+  { name: 'Frontend Development', icon: Globe, description: 'React, TypeScript, Tailwind CSS' },
+  { name: 'Backend Development', icon: Server, description: 'Node.js, Express, Python, REST APIs' },
+  { name: 'Database Management', icon: Database, description: 'MongoDB, MySQL' },
+  { name: 'Cloud', icon: Cloud, description: 'Azure' },
+  { name: 'Programming Languages', icon: Code, description: 'JavaScript, TypeScript, Python, Java, SQL' },
+  { name: 'Version Control', icon: GitBranch, description: 'Git, GitHub' },
+  { name: 'Data Science & ML', icon: BarChart3, description: 'Data Analysis, Visualization, Machine Learning, Deep Learning' },
+  { name: 'AI & GenAI', icon: Brain, description: 'LLMs, RAG, LangChain, Generative AI, NLP, Computer Vision' },
+  { name: 'Libraries & Frameworks', icon: Layers, description: 'NumPy, Pandas, Scikit-learn, TensorFlow, Keras, OpenCV, NLTK' }
+];
+
+
 
   const containerVariants = {
     hidden: { opacity: 0 },
