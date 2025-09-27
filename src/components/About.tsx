@@ -96,7 +96,7 @@ const skills = [
                 className="inline-block"
               >
                 <a
-                  href="/Resume Final.pdf"
+                  href="/Rajeswari Damam.pdf"
                   download
                   className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
                 >
