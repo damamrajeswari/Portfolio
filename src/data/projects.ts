@@ -49,17 +49,18 @@ export const projects: Project[] = [
   liveUrl: "",
   featured: false
 },
-  {
-  id: 4,
-  title: "Quiz App",
-  description: "A basic interactive quiz using vanilla JavaScript and HTML.",
-  longDescription: "Built a client-side quiz application with JavaScript and HTML. Loads questions, accepts user responses, and shows a score. No backend — everything runs in browser. Ideal for practicing JS event handling, DOM manipulation, and basic UX.",
-  image: "https://images.pexels.com/photos/273238/pexels-photo-273238.jpeg?auto=compress&cs=tinysrgb&w=800",
-  technologies: ["JavaScript", "HTML", "Node (for dev setup)"],
-  githubUrl: "https://github.com/damamrajeswari/Quiz-app",
-  liveUrl: "",
-  featured: false
-}
+{
+      id: 4,
+      title: "College Resource Hub App",
+       description: "A modern hub for students to share, discover, and collaborate through study materials.",
+       longDescription: "College Resource Hub is a full-stack web application designed to organize and simplify sharing of study resources in college. Features include drag-and-drop uploads, instant downloads, smart search and filters, community ratings, and secure JWT authentication. Built with React, Node.js, Express, MongoDB, and Tailwind CSS, the app is responsive and student-centered, making knowledge sharing easy and accessible.",
+       image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+       technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JWT Auth"],
+       githubUrl: "https://github.com/damamrajeswari/College-Resource-Hub-frontend",
+       liveUrl: "https://college-resource-hub.vercel.app/",
+       featured: true
+    }
+
 
 ,
   
@@ -76,17 +77,17 @@ export const projects: Project[] = [
 }
 
   ,
-    {
-      id: 6,
-      title: "College Resource Hub App",
-       description: "A modern hub for students to share, discover, and collaborate through study materials.",
-       longDescription: "College Resource Hub is a full-stack web application designed to organize and simplify sharing of study resources in college. Features include drag-and-drop uploads, instant downloads, smart search and filters, community ratings, and secure JWT authentication. Built with React, Node.js, Express, MongoDB, and Tailwind CSS, the app is responsive and student-centered, making knowledge sharing easy and accessible.",
-       image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
-       technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JWT Auth"],
-       githubUrl: "https://github.com/damamrajeswari/College-Resource-Hub-frontend",
-       liveUrl: "https://college-resource-hub.vercel.app/",
-       featured: true
-    }
+   {
+  id: 6,
+  title: "Quiz App",
+  description: "A basic interactive quiz using vanilla JavaScript and HTML.",
+  longDescription: "Built a client-side quiz application with JavaScript and HTML. Loads questions, accepts user responses, and shows a score. No backend — everything runs in browser. Ideal for practicing JS event handling, DOM manipulation, and basic UX.",
+  image: "https://images.pexels.com/photos/273238/pexels-photo-273238.jpeg?auto=compress&cs=tinysrgb&w=800",
+  technologies: ["JavaScript", "HTML", "Node (for dev setup)"],
+  githubUrl: "https://github.com/damamrajeswari/Quiz-app",
+  liveUrl: "",
+  featured: false
+}
 
 
 ];
